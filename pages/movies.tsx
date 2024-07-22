@@ -12,9 +12,9 @@ export async function getStaticProps() {
     props: {
       pageId: "movies",
       metadata: {
-        title: "Ngoné MOohamadou Diop",
+        title: "Mariama Sow",
         description:
-          "Get to know Ngoné MOohamadou Diop and the things he loves by visiting his personal website.",
+          "Get to know Mariama Sow and the things she loves by visiting her personal website.",
         openGraph: {
           image: "https://example.com/image.jpg",
           url: "https://example.com",

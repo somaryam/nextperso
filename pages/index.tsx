@@ -1,14 +1,14 @@
 import Image, { StaticImageData } from "next/image";
-import imageBass from "../public/images/meee.jpg";
+import imageBass from "../public/images/meee.jpeg";
 
 export async function getStaticProps() {
   return {
     props: {
       pageId: "about_me",
       metadata: {
-        title: "Ngoné MOohamadou Diop",
+        title: "Mariama Sow",
         description:
-          "Get to know Ngoné MOohamadou Diop and the things he loves by visiting his personal website.",
+          "Get to know Mariama Sow and the things he loves by visiting his personal website.",
         openGraph: {
           image: "https://example.com/image.jpg",
           url: "https://example.com",
@@ -41,8 +41,8 @@ export default function Home() {
       <header>
         <h1 className="font-bold text-4xl text-zinc-800">Who am I?</h1>
         <p className="text-base mt-6 text-zinc-600">
-          Hello, I am <strong>Madame Ngoné MOohamadou Diop</strong>, a computer
-          science student in the ESP computer science department of Cheikh
+          Hello, I am <strong>Mariama SOW</strong>, a computer
+          scientist student in the ESP computer science department of Cheikh
           Anta Diop University.
         </p>
       </header>
@@ -54,7 +54,7 @@ gap-y-16 mt-8"
         >
           <Presentation
             url={
-              "https://x.com/laa_ngone"
+              "https://www.instagram.com/so_maryam01/"
             }
             imageSrc={imageBass}
           />

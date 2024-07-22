@@ -56,7 +56,7 @@ export default function Layout({ children }: any) {
     <>
       <Head>
         <link rel="icon" href="/favicon.ico" />
-        <title>Ngoné MOohamadou Diop</title>
+        <title>Mariama Sow</title>
         <meta
           name="description"
           content={children.props.metadata.description}
@@ -105,7 +105,7 @@ function Footer() {
           <FooterLink text={"Essays"} url={"/essays"} />
         </div>
         <p className="text-sm text-zinc-400">
-          © 2024 Ngoné MOohamadou Diop. All rights reserved.
+          © 2024 Maryam. All rights reserved.
         </p>
       </div>
     </footer>
